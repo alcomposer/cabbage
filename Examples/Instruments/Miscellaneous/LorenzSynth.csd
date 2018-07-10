@@ -28,7 +28,7 @@
 
 
 <Cabbage> 
-form size(1000,550), guirefresh(32), text("Lorenz Synth"), colour(220,220,220)
+form size(1000,550), guirefresh(32), text("Lorenz Synth"), colour(220,220,220), pluginid("Lorz")
 
 image bounds(0,0,-30,-30), shape("ellipse"), identchannel("IndicatorBallRed"), colour("red"), visible(0), alpha(0.85)
 image bounds(0,0,-30,-30), shape("ellipse"), identchannel("IndicatorBallGreen"), colour("green"), visible(0), alpha(0.85)
